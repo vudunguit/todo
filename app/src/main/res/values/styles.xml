@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- WIDGET -->
+  <style name="Theme.App.AppBar" parent="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+    <item name="android:elevation" tools:targetApi="21">0dp</item>
+    <item name="background">?colorPrimary</item>
+  </style>
+
+  <style name="Theme.App.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+  <style name="Widget.App.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+    <item name="android:paddingEnd">8dp</item>
+    <item name="android:paddingRight">8dp</item>
+    <item name="contentInsetStartWithNavigation">0dp</item>
+    <item name="elevation">0dp</item>
+    <item name="titleTextAppearance">@style/TextAppearance.App.ToolbarTitle</item>
+    <item name="android:actionMenuTextAppearance">@style/TextAppearance.App.ToolbarTitle</item>
+  </style>
+
+
+  <!-- TEXT -->
+  <style name="TextAppearance.App.ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+    <item name="android:textColor">?colorOnPrimary</item>
+  </style>
+  <style name="TextAppearance.App.Title" parent="@style/TextAppearance.MaterialComponents.Body1">
+  </style>
+  <style name="TextAppearance.App.Body" parent="@style/TextAppearance.MaterialComponents.Body2">
+  </style>
+  <style name="TextAppearance.App.Caption" parent="@style/TextAppearance.MaterialComponents.Caption">
+  </style>
+</resources>
